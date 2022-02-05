@@ -1,0 +1,35 @@
+body{
+background-color: yellow;
+}
+
+h1{
+    color:white;
+    background-color: black;
+}
+
+#show_sketch{
+    float:right;
+}
+
+p{
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+canvas{
+    border: 5px solid white;
+    border-radius: 7px;
+    animation-name: joe;
+    animation-duration: 4s;
+    margin-top: 50px;
+    animation-iteration-count: 999;
+}
+
+@keyframes joe{
+    from{
+        box-shadow: 1px 1px 100px #8F00FF;
+    }
+    to {
+        box-shadow: 1px 1px 100px rgb(91, 10, 145);
+    }
+}
